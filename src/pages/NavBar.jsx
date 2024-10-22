@@ -13,7 +13,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed flex items-center py-0 backdrop-blur-sm w-full h-16 border-b-neutral-100">
+    <nav className="fixed flex items-center py-0 backdrop-blur-sm w-full h-16 border-b-neutral-100 z-10">
       <div className="flex flex-grow">
         <motion.div
           drag
