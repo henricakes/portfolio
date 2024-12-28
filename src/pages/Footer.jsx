@@ -6,6 +6,9 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-slate-500 to-slate-800 rounded-lg">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-4">
         <div className="flex items-center justify-between p-1 md:flex-col items-center gap-3">
+          <span className="flex md:text-center text-md text-white font-semibold whitespace-nowrap">
+            CONTACT ME
+          </span>
           <span className="flex md:text-center text-2xl text-white font-semibold whitespace-nowrap">
             Henricakes
           </span>

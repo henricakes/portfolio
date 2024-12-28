@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 const App = () => {
   return (
@@ -39,12 +38,10 @@ const App = () => {
       <div id="Experience">
         <Experience />
       </div>
-      {/* Contact */}
-      <div id="Contact">
-        <Contact />
-      </div>
       {/* Footer */}
-      <Footer />
+      <div id="Contact">
+        <Footer />
+      </div>
     </div>
   );
 };
