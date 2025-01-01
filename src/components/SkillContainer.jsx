@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const SkillContainer = ({ skillImage, altText, skillName }) => {
   return (
@@ -16,6 +17,12 @@ const SkillContainer = ({ skillImage, altText, skillName }) => {
       </div>
     </div>
   );
+};
+
+// Adding PropTypes for validation
+SkillContainer.propTypes = {
+  skillImage: PropTypes.string.isRequired,
+  altText: PropTypes.string.isRequired,
 };
 
 export default SkillContainer;

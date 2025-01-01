@@ -43,6 +43,7 @@ const App = () => {
         <Footer />
       </div>
     </div>
+    /* Happy New Year: This time... */
   );
 };
 
