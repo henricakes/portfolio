@@ -45,6 +45,7 @@ const App = () => {
     </div>
     /* Happy New Year: This time... */
     /* No distractions */
+    /* Control your anger, your everything. */
   );
 };
 
