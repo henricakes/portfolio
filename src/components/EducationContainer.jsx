@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const EducationContainer = ({
   level,
@@ -33,6 +33,14 @@ const EducationContainer = ({
       </div>
     </div>
   );
+};
+
+EducationContainer.propTypes = {
+  level: PropTypes.string.isRequired,
+  degree: PropTypes.string.isRequired,
+  institution: PropTypes.string.isRequired,
+  year: PropTypes.number.isRequired,
+  description: PropTypes.string,
 };
 
 export default EducationContainer;
