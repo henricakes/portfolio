@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
 const App = () => {
   return (
@@ -37,6 +38,9 @@ const App = () => {
       {/* Experience */}
       <div id="Experience">
         <Experience />
+      </div>
+      <div id="Projects">
+        <Projects />
       </div>
       {/* Footer */}
       <div id="Contact">
