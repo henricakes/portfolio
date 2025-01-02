@@ -23,6 +23,7 @@ const SkillContainer = ({ skillImage, altText, skillName }) => {
 SkillContainer.propTypes = {
   skillImage: PropTypes.string.isRequired,
   altText: PropTypes.string.isRequired,
+  skillName: PropTypes.string.isRequired,
 };
 
 export default SkillContainer;
