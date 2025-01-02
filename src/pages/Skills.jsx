@@ -33,6 +33,18 @@ const Skills = () => {
         <SkillContainer skillImage={GitHub} skillName={"GitHub"} />
         <SkillContainer skillImage={Vite} skillName={"Vite"} />
       </div>
+      <div>
+        <p>
+          I also do <span className="font-bold">photography</span>,{" "}
+          <span className="font-bold">videography</span>, and{" "}
+          <span className="font-bold">basic photo</span> and{" "}
+          <span className="font-bold">video editing</span>.
+        </p>
+        <p className="text-center">
+          It's a skill so I added it up here{" "}
+          <span className="font-bold">*wink*</span>
+        </p>
+      </div>
     </div>
   );
 };
