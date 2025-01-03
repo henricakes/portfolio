@@ -7,3 +7,5 @@ export const navItems = [
   { label: "Projects", href: "Projects" },
   { label: "Contact", href: "Contact" },
 ];
+
+/* Lazyyy bakaaa */
